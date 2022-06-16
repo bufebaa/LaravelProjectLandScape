@@ -1,0 +1,651 @@
+
+
+/*Intro*/
+.intro
+{
+    background: url(/img/jpg/introBack.jpg) no-repeat center;
+    background-size: cover;
+    padding: 545px 0px 0px 0px ;
+}
+
+.content_wrapper_intro
+{
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+}
+
+.content
+{
+    flex: 0 1 50%;
+    margin-left: auto;
+}
+
+
+.block-text-title
+{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 59px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+
+.block-text-text
+{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 34px;
+    color: #FFFFFF;
+    margin-bottom: 44px;
+    
+}
+
+.block-text-button
+{
+    width: 372px;
+    height: 60px;
+    left: 896px;
+    top: 833px;
+    background: #000000;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 31px;
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 150px;
+}
+
+.block-text-button:hover, .block-text-button:focus, .block-text-button:active
+{
+    opacity: 70%;
+}
+
+/* Why us Block */
+
+.why_us
+{
+    background: url(/img/jpg/wyus.jpg) no-repeat center;
+    background-size: cover;
+    padding: 85px 0px 145px 0px ;
+}
+
+.why_us_title
+{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    color: #000000;
+    margin-bottom: 100px;
+    width: 100%;
+    text-align: right;
+}
+
+.why_us_item_title
+{
+    height: 38px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    color: #000000;
+    margin-bottom: 7px;
+}
+
+.why_us_item_subtitle
+{
+    height: 54px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    max-width: 280px;
+}
+
+.why_us_items
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.text_why_us_item
+{
+    margin-left: 10px;
+}
+
+.why_us_items_right
+{
+    margin-left: auto;
+}
+
+/*Our service*/
+.our_service
+{
+    background: url(/img/jpg/service.jpg) no-repeat center;
+    background-size: cover;
+    padding: 85px 0px 145px 0px ;
+}
+
+.service_title
+{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    color: white;
+    margin-bottom: 100px;
+    width: 100%;
+    text-align: right;
+}
+
+.service_text
+{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.service_items
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.service_items_right
+{
+    margin-left: auto;
+}
+
+.service_text_4
+{
+    width: 350px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    color: black;}
+
+/*we care about your garden*/
+.care_about
+{
+    background: url(/img/jpg/careabout.jpg) no-repeat center;
+    background-size: cover;
+    padding: 85px 0px 145px 0px ;
+}
+
+.care_about_text
+{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 65px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.care-about-button
+{
+    width: 332px;
+    height: 55px;
+    left: 634px;
+    top: 2730px;
+    background: rgba(255, 255, 255, 0.35);
+    border: 2px solid #FFFFFF;
+    border-radius: 43px;
+    color: #000;
+
+}
+
+.care-about-button:hover, .care-about-button:focus, .care-about-button:active
+{
+    opacity: 80%;
+}
+
+.wrapper-button
+{
+    display: block;
+    margin: 0 auto;	
+}
+
+/* our clients*/
+.our_clients
+{
+    background: url(/img/jpg/clientsback.jpg) no-repeat center;
+    background-size: cover;
+    padding: 85px 0px 145px 0px ;
+}
+
+.our_clients_text
+{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    color: black;
+    display: block;
+    margin: 0 auto;	
+    margin-bottom: 70px;
+
+}
+
+.client_title
+{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 13px;
+    color: black;
+}
+
+.client_disc
+{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: black;
+    max-width: 316px;
+
+}
+
+.client_items
+{
+    display: flex;
+    align-items: center;
+    margin-right: 30%;
+}
+
+.client_items_right
+{
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.clients_information
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.client1-info
+{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+
+/*media intro*/
+@media(max-width: 1100px)
+{
+    .content_wrapper_intro
+    {
+        max-width: 1000px;
+    }
+
+    .block-text-title
+    {
+        font-size: 35px;
+    }
+
+
+    .block-text-text
+    {
+        font-size: 20px;       
+    }
+
+    .block-text-button
+    {
+        width: 300px;
+        height: 50px;
+    }
+
+
+    /*media our service*/
+        
+
+
+    .service_text
+    {
+        font-size: 20px;
+        margin-left: 50px;
+
+    }
+
+
+
+    .service_text_4
+    {
+        width: 330px;
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width:991.98px)
+{
+
+    .content_wrapper_intro
+    {
+        max-width: 990px;
+    }
+
+    .service_text
+    {
+
+        font-size: 20px;
+        margin-left: 50px;
+        margin-right: 20px;
+    }
+
+
+    .service_text_4
+    {
+        width: 350px;
+        font-size: 20px;
+    }
+
+    /*care about*/
+    .care_about_text
+    {
+        width: 100%;
+        display: block;
+        font-size: 40px;
+    }
+
+    .care-about-button
+    {
+        width: 300px;
+        height: 50px;
+    }
+
+    /*our_clients*/
+
+    
+
+    
+    .client_items
+    {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    
+    .client_items_right
+    {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
+    
+    .clients_information
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .client1-info
+    {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+
+}
+
+@media (max-width:767.98px)
+{
+    .intro
+    {
+        background: url(/img/jpg/intomobback.jpg) no-repeat center;
+        background-size: cover;
+        padding: 400px 0px 0px 0px ;
+    }
+
+        .content_wrapper_intro
+    {
+        max-width: 780px;
+    }
+
+    .block-text-title
+    {
+        font-size: 30px;
+        margin-bottom: 5x;
+        line-height: 33px;
+    }
+
+
+    .block-text-text
+    {
+        font-size: 19px;
+        line-height: 33px;
+    }
+
+    .block-text-button
+    {
+        width: 250px;
+        height: 40px;
+        font-size: 15px;
+        margin-bottom: 100px;
+    }
+
+    /* Why us Block */
+
+    .why_us
+    {
+        padding: 85px 0px 50px 0px ;
+    }
+
+    .why_us_items_left
+    {
+        margin: 0 auto;
+    }
+
+    .why_us_items_right
+    {
+        margin: 0 auto;
+    }
+
+    .why_us_items_right:last-child
+    {
+        margin-bottom: 50px;
+    }
+
+    /*Our service*/
+    .our_service
+    {
+        background: url(/img/jpg/ourservicemob.jpg) no-repeat center;
+        background-size: cover;
+        padding: 40px 0px 40px 0px ;
+    }
+
+    .service_title
+    {
+        text-align: center;
+    }
+
+    .service_text
+    {
+        font-size: 25px;
+        width: 300px;
+    }
+
+    .service_items_right
+    {
+        margin: 0 auto;
+    }
+
+    .service_item_left
+    {
+        margin: 0 auto;
+    }
+
+    .service_text_4
+    {
+        font-size: 25px;
+        width: 300px;
+        margin-left: 50px;
+        margin-right: 20px;
+    }
+
+    /*we care about your garden*/
+    .care_about
+    {
+        padding: 85px 0px 50px 0px ;
+    }
+
+    .care_about_text
+    {
+        font-size: 40px;
+    }
+
+    .care-about-button
+    {
+        width: 250px;
+        height: 40px;
+
+    }
+
+
+    /* our clients*/
+
+    .our_clients
+    {
+        padding: 40px 0px 40px 0px ;
+    }
+}
+
+
+
+@media (max-width:480.98px)
+{
+    .intro
+    {
+        background: url(/img/jpg/introbacksmallmob.jpg) no-repeat center;
+        background-size: cover;
+        padding: 300px 0px 0px 0px ;
+    }
+
+        .content_wrapper_intro
+    {
+        max-width: 470px;
+    }
+
+    .block-text-title
+    {
+        font-size: 20px;
+        margin-bottom: 5x;
+        line-height: 30px;
+    }
+
+
+    .block-text-text
+    {
+        font-size: 15px;
+        line-height: 33px;
+    }
+
+    .block-text-button
+    {
+        width: 240px;
+        height: 40px;
+        font-size: 13px;
+        margin-bottom: 100px;
+    }
+
+    /* Why us Block */
+
+    .why_us
+    {
+        padding: 45px 0px 20px 0px ;
+    }
+
+    .why_us_items_left
+    {
+        margin: 0 auto;
+    }
+
+    .why_us_items_right
+    {
+        margin: 0 auto;
+    }
+
+    .why_us_items_right:last-child
+    {
+        margin-bottom: 50px;
+    }
+
+    .why_us_item_title
+    {
+        font-size: 20px;
+    }
+
+    .why_us_item_subtitle
+    {
+
+        font-size: 15px;
+    }
+
+    /*Our service*/
+
+    .our_service
+    {
+        background: url(/img/jpg/test.jpg) no-repeat center;
+        background-size: cover;
+        padding: 40px 0px 40px 0px ;
+    }
+
+    .service_title
+    {
+        margin-top: 40px;
+        margin-bottom: 160px;
+    }
+
+    .service_text
+    {
+        font-size: 15px;
+        width: 200px;
+    }
+
+    .service_items_right
+    {
+        margin-right: 100px;
+    }
+
+    .service_item_left
+    {
+        margin: 0 auto;
+    }
+
+    .service_text_4
+    {
+        font-size: 15px;
+        width: 213px;
+        margin-right: 0px;
+        
+    }
+
+    
+}

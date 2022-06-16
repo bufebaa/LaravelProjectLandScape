@@ -1,0 +1,310 @@
+/*background for that page*/
+.background-wrapper
+{
+    background: url(/img/jpg/contactsback.jpg) no-repeat center;
+    background-size: cover;
+    padding: 231px 0px 0px 0px ;
+}
+
+.error
+{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: red;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-right: 20px;
+}
+
+.content-wrapper
+{
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+}
+
+/*intro*/
+.intro
+{
+    background: rgba(255, 255, 255, 0.6);
+    margin-left: auto;
+    padding-top: 100px;
+    max-width: 1700px;
+    padding-left: 8%;
+    padding-bottom: 100px;
+    margin-bottom: 90px;
+}
+
+.content_wrapper_info
+{
+    max-width: 1200px;
+    margin-right: auto;
+    padding: 0px 15px;
+
+}
+
+.text
+{
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    flex-wrap: wrap;
+
+}
+
+.main-title
+{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    color: black;
+    margin-right: 2%;
+}
+
+.line {
+    border-left: 2px solid black;
+    height: 137px;
+    width: 2px;
+    margin-right: 2%;
+}
+
+.subtitle
+{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    color: black;
+    width: 660px
+}
+
+/*contacts information*/
+
+.contact-information
+{
+    background-color: #2A4A2F;
+    margin-right: o auto;
+    padding-top: 60px;
+    width: 1000px;
+    margin-bottom: 100px;
+}
+
+.contact_title
+{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.contact_subtitle
+{
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 30px;
+    max-width: 550px;
+    margin-right: 40px;
+}
+
+.contact_text
+{
+    margin-left: 20px;
+}
+
+.wparrer_for_icon
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.icon-info
+{
+    margin-left: 10px;
+}
+
+.contact_text
+{
+    margin-bottom: 50px;
+}
+
+/*anketa*/
+
+.anketa
+{
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.anketa_back
+{
+    width: 100%;
+    padding: 100px 0px 100px 0px;
+    background: rgba(0, 0, 0, 0.7);
+    margin: 0 auto;
+}
+
+.form-info
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.form-field
+{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #FFFFFF;
+    margin-right: 100px;
+    width: 237px;
+    padding-left: 12px;
+    padding-bottom: 22px;
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 70px;
+}
+
+.form-field::placeholder
+{
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+}
+
+.anketa-text
+{
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.send-button
+{
+    width: 257px;
+    height: 43px;
+
+
+    background: rgba(255, 255, 255, 0.35);
+    border: 3px solid #FFFFFF;
+    border-radius: 43px;
+    margin: 0 auto;
+}
+
+
+
+
+@media(max-width: 1200px)
+{
+        .content-wrapper
+    {
+        max-width: 1100px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+        .main-title
+    {
+        font-size: 60px;
+        margin-right: 1%;
+    }
+
+    .line {
+        margin-right: 1%;
+    }
+
+    .subtitle
+    {
+
+        font-size: 25px;
+        width: 600px
+    }
+
+}
+
+@media (max-width:1058.98px){
+    .content-wrapper
+{
+    max-width: 990px;
+    padding: 15px 15px;
+}
+
+    
+
+        .main-title
+    {
+        font-size: 50px;
+        margin-right: 1%;
+    
+    }
+    .subtitle
+    {
+
+        font-size: 20px;
+        width: 450px
+    }
+
+}
+
+
+@media (max-width:830.98px){
+
+
+        .main-title
+    {
+        font-size: 40px;
+        margin-right: 1%;
+    
+    }
+    .subtitle
+    {
+
+        font-size: 19px;
+        width: 400px
+    }
+}
+
+@media (max-width:767.98px)
+{
+    .content-wrapper
+    {
+        max-width: 767px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+        .main-title
+    {
+        width: 100%;
+        font-size: 60px;
+        margin-right: 1%;
+    }
+
+    .line {
+        border-top: 2px solid black;
+        height: 2px;
+        width: 330px;
+        margin-bottom: 10px;
+    }
+
+    .send-button
+    {
+        margin-left: 0;
+    }
+
+}
+

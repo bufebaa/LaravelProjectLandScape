@@ -1,0 +1,197 @@
+.main
+{
+    background: url(/img/jpg/back-for-form.jpg) no-repeat center;
+    background-size: cover;
+    padding: 50px 0px 0px 0px ;
+    height: 100vh;
+}
+
+.form
+{
+    margin: 0 auto;
+}
+
+.form-wrapper
+{
+    width: 50%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    border-radius: 60px;
+}
+
+
+.maintitle
+{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    color: black;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.form-info
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 27%;
+}
+
+.form-field
+{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid black;
+    margin-right: 100px;
+    width: 400px;
+    padding-left: 12px;
+    padding-bottom: 22px;
+    font-weight: 300;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 70px;
+}
+
+.form-field::placeholder
+{
+    font-weight: 300;
+    font-size: 20px;
+    color: black;
+}
+
+.text-area
+{
+    border: 1px solid black;
+    margin-right: 100px;
+    width: 60%;
+    padding-left: 12px;
+    padding-bottom: 22px;
+    font-weight: 300;
+    font-size: 20px;
+    color: black;
+    resize: none;
+    border-radius: 10px;
+    margin-bottom: 40px;
+
+}
+
+
+.send-button
+{
+    width: 257px;
+    height: 43px;
+
+
+    background: #FFE6E6;
+    border: 2px solid black;
+    border-radius: 43px;
+    margin: 0 auto;
+    margin-left: 27%;
+
+}
+
+.form-text
+{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 19px;
+    color: #F32424;
+    width: 100%;
+    text-align: center;
+
+}
+
+.send-button:hover, .send-button:focus, .send-button:active
+{
+    background: #F2D1D1;
+}
+
+
+@media(max-width: 1200px)
+{
+    .maintitle
+    {
+        font-size: 40px;
+    }
+
+    .send-button
+    {
+        margin-left: 23%;
+    }
+
+        .form-info
+    {
+        margin-left: 23%;
+    }
+}
+
+
+@media(max-width: 960px)
+{
+    .maintitle
+    {
+        font-size: 30px;
+    }
+
+    .send-button
+    {
+        margin-left: 20%;
+    }
+
+        .form-info
+    {
+        margin-left: 20%;
+    }
+
+    .form-field
+    {
+        width: 250px;
+        font-size: 15px;
+    }
+}
+
+
+
+@media(max-width: 850px)
+{
+    .maintitle
+    {
+        text-align: left;
+        font-size: 25px;
+        margin-left: 20px;
+        margin-right: auto;
+
+    }
+
+    .send-button
+    {
+        margin-left: 5%;
+    }
+
+        .form-info
+    {
+        margin-left: 5%;
+    }
+
+    .form-field
+    {
+        width: 250px;
+        font-size: 15px;
+    }
+}
+
+
+@media(max-width: 850px)
+{
+    .form-wrapper
+    {
+        width: 70%;
+    }
+}
