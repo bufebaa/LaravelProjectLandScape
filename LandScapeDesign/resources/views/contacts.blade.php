@@ -175,5 +175,7 @@
       </footer>
         </div>
         <script src="main.js"></script>
+        <script src="../js/app.js"></script>
+
 </body>
 </html>

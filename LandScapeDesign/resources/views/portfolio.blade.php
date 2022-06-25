@@ -62,34 +62,25 @@
                     </div>
                 </div>
                 
+               
                 <div class="cards">
                     <div class="content-wrapper">
                         <div class="cads-items">
+
+                        @foreach($members as $member)
                             <div class="card-item">
-                                <img src="/img/png/greedgarden.png" alt="">
+                                
+                                <img src="{{ asset('/img/png/'.$member->image_name)}}" alt="">
                                 <div class="item_title">
-                                    Озеленення місцевого ресторану</div>
+                                    {{$member['image_desc']}}</div>
                             </div>
-
-                            <div class="card-item">
-                                <img src="/img/png/minimalistic.png" alt="">
-                                <div class="item_title">Мінімалістичний дизайн</div>
-                            </div>
-
-                            <div class="card-item">
-                                <img src="/img/png/cardthreeportfolio.png" alt="">
-                                <div class="item_title">Озеленення території біля будинку</div>
-                            </div>
-
-                            <div class="card-item">
-                                <img src="/img/png/card4portfolio.png" alt="">
-                                <div class="item_title">Благоустрій території біля прудів</div>
-                            </div>
+                        @endforeach
+                            
                         </div>
                     </div>
                 </div>
             </div>
-
+            
             <div class="button-div">
                 <div class="back_wrapper">
                     <div class="content-wrapper">
@@ -144,5 +135,7 @@
         </footer>
         </div>
         <script src="main.js"></script>
+        <script src="../js/app.js"></script>
+
 </body>
 </html>

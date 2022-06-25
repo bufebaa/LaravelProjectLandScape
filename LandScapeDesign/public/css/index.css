@@ -343,7 +343,7 @@
 
 }
 
-@media (max-width:991.98px)
+@media screen and (max-width:991.98px)
 {
 
     .content_wrapper_intro
@@ -415,7 +415,7 @@
 
 }
 
-@media (max-width:767.98px)
+@media screen and (max-width:767.98px)
 {
     .intro
     {
@@ -539,7 +539,7 @@
 
 
 
-@media (max-width:480.98px)
+@media screen and (max-width:480.98px)
 {
     .intro
     {
@@ -648,4 +648,16 @@
     }
 
     
+}
+
+
+@media screen and  (max-width:100.98px)
+{
+    .intro
+    {
+        background: url(/img/jpg/introbacksmallmob.jpg) no-repeat center;
+        background-size: cover;
+        padding: 300px 0px 0px 0px ;
+    }
+
 }

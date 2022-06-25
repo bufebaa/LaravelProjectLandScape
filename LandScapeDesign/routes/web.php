@@ -1,14 +1,17 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PhotosController;
 
 Route::get('/', function () {
     return view('index');
 })->name('index');
 
-Route::get('/portfolio', function () {
-    return view('portfolio');
-})->name('portfolio');
+
+
+Route::get('/portfolio', 'App\Http\Controllers\PhotosController@show'
+)->name('portfolio');
+
 
 Route::get('/contacts', function () {
     return view('contacts');
